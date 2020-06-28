@@ -1,0 +1,16 @@
+secret_key = "my super secret key"
+
+[database]
+type = "mysql"
+host = "localhost:3306"
+path = "/my_db?multiStatements=true&parseTime=true"
+auth = "user:pass"
+
+[tabs]
+[tabs.g]
+name = "technology"
+nodes = ["iphone", "linux"]
+[tabs.q]
+name = "Q&A"
+[tabs.t]
+name = "trending"
